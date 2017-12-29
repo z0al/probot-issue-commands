@@ -2,9 +2,9 @@
 import { EventEmitter } from 'events'
 
 // Ours
-import commands from '.'
+import { addCommand } from '.'
 
-describe('commands', () => {
+describe('addCommand', () => {
 	let callback: any
 	let robot: any
 
@@ -15,7 +15,7 @@ describe('commands', () => {
 	beforeEach(() => {
 		callback = jest.fn()
 		robot = new EventEmitter()
-		commands(robot, /foo(ing)?/, callback)
+		addCommand(robot, /foo(ing)?/, callback)
 	})
 
 	it('invokes callback and passes issues list', () => {

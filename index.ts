@@ -35,7 +35,7 @@ class Command {
  * 	// ['#1','owner/repo#2', ...]
  * })
  */
-export default (
+export const addCommand = (
 	robot: any,
 	name: RegExp,
 	callback: (context: any, issues: RegExpMatchArray) => void
