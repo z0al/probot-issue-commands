@@ -8,9 +8,11 @@
 	"author": "Ahmed T. Ali <ah.tajelsir@gmail.com>",
 	"license": "MIT",
 	"scripts": {
+		"prepublish": "tsc",
 		"test": "jest",
 		"semantic-release": "semantic-release"
 	},
+	"files": ["dist/index.js", "README.md"],
 	"devDependencies": {
 		"@types/jest": "^22.0.0",
 		"jest": "^22.0.4",
