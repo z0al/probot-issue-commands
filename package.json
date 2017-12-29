@@ -12,7 +12,7 @@
 		"test": "jest",
 		"semantic-release": "semantic-release"
 	},
-	"files": ["dist/index.js", "README.md"],
+	"files": ["dist/*", "README.md"],
 	"devDependencies": {
 		"@types/jest": "^22.0.0",
 		"jest": "^22.0.4",
