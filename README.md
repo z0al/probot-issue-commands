@@ -14,6 +14,8 @@ $ npm add probot-issue-commands
 ## Usage
 
 ```javascript
+const commands = require('probot-issue-commands)
+
 // Type `closes #1, and owner/repo#2`
 commands(robot, /clos(es|ing)/, (context, issues) => {
 	console.log(issues)
