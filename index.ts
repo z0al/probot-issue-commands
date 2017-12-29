@@ -30,10 +30,10 @@ class Command {
  * @example
  *
  * // Type `closes #1, and owner/repo#2`
- * commands(robot, /closes/, (context, issues) => {
- *   console.log(issues)
- *   // ['#1','owner/repo#2', ..etc]
- * });
+ * commands(robot, /clos(es|ing)/, (context, issues) => {
+ * 	console.log(issues)
+ * 	// ['#1','owner/repo#2', ...]
+ * })
  */
 export default (
 	robot: any,

@@ -1,35 +1,29 @@
 {
-  "name": "probot-issue-commands",
-  "version": "0.0.0-development",
-  "description": "A Probot extension to make it easier to working with issue commands",
-  "main": "dist/index.js",
-  "repository": "https://github.com/ahmed-taj/probot-issue-commands",
-  "author": "Ahmed T. Ali <ah.tajelsir@gmail.com>",
-  "license": "MIT",
-  "scripts": {
-    "test": "jest",
-    "semantic-release": "semantic-release"
-  },
-  "devDependencies": {
-    "@types/jest": "^22.0.0",
-    "jest": "^22.0.4",
-    "ts-jest": "^22.0.0",
-    "ts-node": "^4.1.0",
-    "typescript": "^2.6.2",
-    "semantic-release": "^11.0.2"
-  },
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  }
+	"name": "probot-issue-commands",
+	"version": "0.0.0-development",
+	"description":
+		"A Probot extension to make it easier to working with issue commands",
+	"main": "dist/index.js",
+	"repository": "https://github.com/ahmed-taj/probot-issue-commands",
+	"author": "Ahmed T. Ali <ah.tajelsir@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"test": "jest",
+		"semantic-release": "semantic-release"
+	},
+	"devDependencies": {
+		"@types/jest": "^22.0.0",
+		"jest": "^22.0.4",
+		"ts-jest": "^22.0.0",
+		"ts-node": "^4.1.0",
+		"typescript": "^2.6.2",
+		"semantic-release": "^11.0.2"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.tsx?$": "ts-jest"
+		},
+		"testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+		"moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+	}
 }
